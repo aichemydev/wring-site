@@ -1069,6 +1069,21 @@ section {
   color: #2487ce;
 }
 
+#role_select{
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+#user_scenarios {
+  width: 80%;
+  height: auto;
+  min-height: 500px;
+  display: block;
+  margin: auto;
+}
+
+
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/

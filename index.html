@@ -29,6 +29,9 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
+  <!-- d3js -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -474,6 +477,17 @@
           -->
         </div>
 
+        <div class="interactive_visualization">
+          <div id="role_select" class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary">Manual Tester</button>
+            <button type="button" class="btn btn-outline-primary">Automation Engineer</button>
+            <button type="button" class="btn btn-outline-primary">Engineering Manager</button>
+            <button type="button" class="btn btn-outline-primary">Business Analyst</button>
+            <button type="button" class="btn btn-outline-primary">Executives</button>
+          </div>
+          <svg id="user_scenarios"></svg>
+        </div>
+
       </div>
     </section><!-- End Sevices Section -->
 
@@ -857,7 +871,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">How powerful is your solution? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-parent=".faq-list">
                 <p>
-                  We use a variety of Ai techniques like Deep Learning, Natural Language Processing, Vision, etc., to bring you the only solution
+                  We use a variety of AI techniques like Deep Learning, Natural Language Processing, Vision, etc., to bring you the only solution
                   in the Industry that can Auto-Heal, Auto-Gen and Increase Coverage.
                 </p>
               </div>
@@ -946,7 +960,7 @@
 <!--        </div>-->
 
 <!--      </div>-->
-<!--    </section>&lt;!&ndash; End Contact Section &ndash;&gt;-->
+<!--    </section>&lt;!&ndash; End Contact Section &ndash;&gt; -->
 
   </main><!-- End #main -->
 
