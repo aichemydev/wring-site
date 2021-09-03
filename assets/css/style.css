@@ -1069,10 +1069,31 @@ section {
   color: #2487ce;
 }
 
+.interactive_visualization{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 #role_select{
   padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 10px;
 }
+
+#carouselExampleIndicators{
+  width: 80%;
+  height: auto;
+  min-height: 50vh;
+  max-height: 90vh;
+  margin: auto;
+}
+
+#carousel-item{
+  min-height: 800px;
+  max-height: 90vh;
+}
+
 
 #user_scenarios {
   width: 80%;
