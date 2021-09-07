@@ -5,6 +5,19 @@
 * License: https://bootstrapmade.com/license/
 */
 
+ul {
+  width: 90%;
+  list-style-type:none;
+  margin:auto;
+  padding:0;
+  position:relative;
+  left:5%;
+}
+
+.element {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
