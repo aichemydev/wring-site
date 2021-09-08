@@ -17,3 +17,4 @@ scenariosSVG.selectAll("circle")
     .attr("r", 40)
     .attr("cx", 50)
     .attr("cy", 20);
+
