@@ -5,6 +5,21 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+ul {
+  width: 90%;
+  list-style-type:none;
+  margin:auto;
+  padding:0;
+  position:relative;
+  left:5%;
+}
+
+.element {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1068,6 +1083,43 @@ section {
   background: #fff;
   color: #2487ce;
 }
+
+.interactive_visualization{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#role_select{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+#carouselExampleIndicators{
+  width: 80%;
+  height: auto;
+  min-height: 50vh;
+  max-height: 90vh;
+  margin: auto;
+}
+
+#carousel-item{
+  min-height: 800px;
+  max-height: 90vh;
+}
+
+
+#user_scenarios {
+  width: 80%;
+  height: auto;
+  min-height: 500px;
+  display: block;
+  margin: auto;
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
