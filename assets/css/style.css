@@ -127,6 +127,27 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+.resetter{
+  margin:0 !important;
+  padding:0 !important; 
+}
+
+.background-gradient{
+  width:100%; 
+  background: linear-gradient(148deg, rgba(245,55,92,1) 18%, rgba(245,95,54,1) 61%);
+  z-index:-1; 
+  display:flex;
+  flex-direction:column; 
+  align-items: center;
+  padding:10rem 0rem 5rem 0rem;
+  /* border:3px solid red;  */
+}
+
+.title-text{
+    color:white !important; 
+}
+
 #header {
   transition: all 0.5s;
   background: #fff;
@@ -461,11 +482,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #f21533;
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  background: #c0132a;
 }
 
 #hero .icon-boxes {
@@ -477,6 +498,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
   background: #fff;
+  background: linear-gradient(174deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 43%, rgba(242,242,242,1) 58%);
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -497,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .icon-box .description {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 20px;
   margin-bottom: 0;
 }
 
@@ -544,6 +566,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 80px 0;
+}
+
+.about-us{
+  line-height: 25!ipx;
+  font-size:0.5rem;
 }
 
 .section-bg {
@@ -1048,7 +1075,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2487ce;
+  background: linear-gradient(148deg, rgba(245,55,92,1) 18%, rgba(245,95,54,1) 61%);
   background-size: cover;
   padding: 60px 0;
 }
@@ -1122,6 +1149,16 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.btn-outline-primary.active{
+  background-color: #4472C4 !important;
+}
+
+.btn-outline-primary:hover{
+  background-color: #4472C4 !important;
+}
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
