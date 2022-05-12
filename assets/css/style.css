@@ -148,6 +148,8 @@ h1, h2, h3, h4, h5, h6 {
     color:white !important; 
 }
 
+
+
 #header {
   transition: all 0.5s;
   background: #fff;
@@ -172,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #16507b;
+  color: #0f1c33;
 }
 
 #header .logo img {
@@ -208,14 +210,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #124265;
+  color: #0a2538;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #2487ce;
+  color: #ff4a65;
 }
 
 .nav-menu .drop-down ul {
@@ -249,11 +251,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #124265;
+  color: #ff4a65;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #2487ce;
+  color: #ff4a65;
 }
 
 .nav-menu .drop-down > a:after {
@@ -340,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #124265;
+  color: #ff9900;
 }
 
 .mobile-nav {
@@ -368,14 +370,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #124265;
+  color: #0d2c42;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #2487ce;
+  color: #ff4a65;
   text-decoration: none;
 }
 
@@ -453,7 +455,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 80px;
+  /* padding-top: 80px; */
+  padding:10rem 0 10rem 0; 
 }
 
 #hero h1 {
@@ -498,7 +501,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: linear-gradient(174deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 43%, rgba(242,242,242,1) 58%);
+  /* background: linear-gradient(174deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 43%, rgba(242,242,242,1) 58%); */
+  background: linear-gradient(120deg, rgba(255, 38, 70, 0.08) 0%, rgba(255, 127, 92, 0.11) 59%);
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -507,9 +511,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  font-size: 20px;
+  padding-bottom:10px;
+  color: #ff9900;
+  /* border-bottom:1px solid black; */
 }
 
 #hero .icon-box .title a {
@@ -519,7 +526,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .icon-box .description {
   font-size: 15px;
-  line-height: 20px;
+  line-height: 25px;
   margin-bottom: 0;
 }
 
@@ -530,7 +537,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #FAAF40;
+  /* color: #c0132a;
+  color: #ec375a; */
 }
 
 #hero .icon-box:hover {
@@ -569,9 +578,12 @@ section {
 }
 
 .about-us{
-  line-height: 25!ipx;
+  line-height: 30px; 
   font-size:0.5rem;
+  
 }
+
+
 
 .section-bg {
   background-color: #f8fbfe;
@@ -580,6 +592,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  
 }
 
 .section-title h2 {
@@ -588,13 +601,14 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  color: #ff7f5c;
 }
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
   color: #919191;
+  
 }
 
 /*--------------------------------------------------------------
@@ -672,7 +686,7 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 700;
-  color: #124265;
+  color: #ff7f5c;
   margin-left: 80px;
   margin: auto;
 }
@@ -682,7 +696,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #1e6ca6;
+  color: #ff7f5c;
 }
 
 /*--------------------------------------------------------------
@@ -1077,17 +1091,18 @@ section {
 .cta {
   background: linear-gradient(148deg, rgba(245,55,92,1) 18%, rgba(245,95,54,1) 61%);
   background-size: cover;
-  padding: 60px 0;
+  padding: 7.5rem 0 7.5rem 0; 
 }
 
 .cta h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 4rem;
   font-weight: 700;
 }
 
 .cta p {
   color: #fff;
+  font-size:1.25rem;
 }
 
 .cta .cta-btn {
@@ -1102,11 +1117,14 @@ section {
   margin-top: 10px;
   border: 2px solid #fff;
   color: #fff;
+  margin-top: 2rem;
 }
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #2487ce;
+  color: #F5375C; 
+  
+  
 }
 
 .interactive_visualization{
@@ -1522,7 +1540,7 @@ section {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  padding: 0 30px;
+  padding-right:30px;
   outline: none;
 }
 
@@ -1555,7 +1573,11 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #ff7f5c;
+}
+
+.faq .faq-list a {
+  color: #ff7f5c;
 }
 
 .faq .faq-list a.collapsed .icon-show {
