@@ -221,6 +221,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff4a65;
 }
 
+.optional{
+  display:none;
+  color: #ff4a65;
+  opacity:0; 
+  transition: all 0.5s; 
+}
+
+.navButton:hover > span{
+  display:inline-flex;
+  opacity:1;
+
+}
+
+.nav-menu a 
+
 .nav-menu .drop-down ul {
   display: block;
   position: absolute;
@@ -740,6 +755,10 @@ section {
   .section{
     flex-direction:column; 
   }
+
+  .section-1{
+    flex-direction:column-reverse !important;
+  }
 }
 
 .section--leftSide{
@@ -817,9 +836,15 @@ section {
 }
 
 .featureImage{
+  min-width:100%; 
   max-width:100%; 
-  border-radius:2rem;
+  border-radius:1rem;
+}
 
+.featureImage-1{
+  min-width:85%; 
+  max-width:85%;
+  border-radius:1rem; 
 }
 
 .section--rightSide--content h2{
