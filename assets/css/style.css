@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 .title-text{
     /* color:white !important;  */
     background-color: #f3ec78;
-    background-image: linear-gradient(148deg, rgba(245,55,92,1) 18%, rgba(245,95,54,1) 61%);
+    background-image: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -252,12 +252,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ff4a65;
+  color: rgb(64, 132, 250);
 }
 
 .optional{
   display:none;
-  color: #ff4a65;
+  color: rgb(46, 93, 173);
   opacity:0; 
   transition: all 0.5s; 
 }
@@ -535,11 +535,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   /* margin-top: 30px;
   color: #fff; */
-  background: #f21533;
+  background: rgba(61,107,189,1);
 }
 
 #hero .btn-get-started:hover {
-  background: #c0132a;
+  background: rgb(101, 149, 231);
+  transform:translateY(-0.5rem);
 }
 
 #hero .icon-boxes {
@@ -651,7 +652,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #ff7f5c;
+  color:rgb(114, 149, 209);
 }
 
 .section-title p {
@@ -736,7 +737,7 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 700;
-  color: #ff7f5c;
+  color: rgb(30, 64, 124);
   margin-left: 80px;
   margin: auto;
 }
@@ -746,7 +747,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #ff7f5c;
+  color: rgb(93, 128, 187);
 }
 
 /*--------------------------------------------------------------
@@ -768,11 +769,11 @@ section {
 
 
 .bg1{
-  background-color: #fde6e0;
+  background-color: rgb(217, 224, 236);
 }
 
 .bg2{
-  background-color:#f4d4cb;
+  background-color:#a9b5d6;
 }
 
 .section{
@@ -816,25 +817,25 @@ section {
   text-transform:uppercase;
   margin-right:10rem; 
   padding-bottom:0.5rem;
-  color: #fc714a; 
+  color: #884afc; 
 }
 
 .style1{ 
-  border-bottom:1px solid #fc714a !important;
-  color: #fc714a !important; 
+  border-bottom:1px solid rgb(114, 149, 209) !important;
+  color: rgb(114, 149, 209) !important; 
 }
 
 .style3{
-  color: #fc714a !important; 
+  color: rgb(114, 149, 209) !important; 
 }
 
 .style2{
-  border-bottom:1px solid #F5375C !important; 
-  color: #F5375C !important;
+  border-bottom:1px solid rgb(22, 69, 150) !important; 
+  color: rgb(22, 69, 150) !important;
 }
 
 .style4{
-  color:  #F5375C !important;
+  color: rgb(22, 69, 150)!important;
 }
 
 .productFeature p{
@@ -1242,7 +1243,7 @@ section {
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+  color: rgb(81, 119, 185);
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -1250,11 +1251,11 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: rgb(81, 119, 185);
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: rgb(63, 196, 248);
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -1262,11 +1263,11 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: rgb(63, 196, 248);
 }
 
 .services .iconbox-yellow i {
-  color: #ffbb2c;
+  color: rgb(134, 86, 211);
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -1274,7 +1275,7 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+  fill: rgb(134, 86, 211);
 }
 
 .services .iconbox-red i {
@@ -1305,7 +1306,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(148deg, rgba(245,55,92,1) 18%, rgba(245,95,54,1) 61%);
+  background: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%);
   background-size: cover;
   padding: 7.5rem 0 7.5rem 0; 
 }
@@ -1789,11 +1790,11 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #ff7f5c;
+  color: rgb(73, 95, 168);
 }
 
 .faq .faq-list a {
-  color: #ff7f5c;
+  color: rgb(73, 95, 168);
 }
 
 .faq .faq-list a.collapsed .icon-show {
