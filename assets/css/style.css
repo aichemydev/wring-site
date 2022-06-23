@@ -649,6 +649,7 @@ section {
   
 }
 
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -779,6 +780,12 @@ section {
   background-color:#a9b5d6;
 }
 
+.bg3{
+  background-color:rgb(46, 72, 119);
+  justify-content: center;
+  align-items: center;
+}
+
 .section{
   width: 80%; 
   margin: 0 auto; 
@@ -798,6 +805,83 @@ section {
     flex-direction:column-reverse !important;
   }
 }
+
+.section--bottom{
+  /* border:1px solid white;  */
+  display:flex;
+  /* align-items: center; */
+  margin:0 auto; 
+  margin-top:3rem;
+  margin-bottom:2rem; 
+  width: 75%; 
+  justify-content: space-between;
+}
+
+@media screen and (max-width:700px){
+  .section--bottom{
+    flex-direction:column;
+  }
+}
+
+.leftText{
+  margin-left:2rem;
+}
+
+@media screen and (max-width:700px){
+  .leftText{
+    margin-left:0rem !important;
+  }
+  .rightSide{
+    text-align: left !important;
+  }
+}
+
+
+.section--bottomLeft p{
+  color:white; 
+}
+
+
+
+.section--bottomRight p{
+  color:white; 
+  /* text-align: right; */
+  padding-right:0rem;
+  margin-right:0rem;
+  margin-left:2rem; 
+  
+}
+
+.section--bottomLeft{
+  /* border:1px solid white;  */
+  display:flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+  padding-right:2rem; 
+  flex: 0 1 50%; 
+  margin-left:2rem;
+  padding-right:2rem; 
+}
+
+.rightSide{
+  justify-self:flex-end;
+  align-self: flex-end;
+  margin-right:0rem; 
+  text-align: right;
+}
+
+
+
+.section--bottomRight{
+  /* border:1px solid white;  */
+  display:flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+  padding-left:2rem; 
+  flex: 0 1 50%; 
+}
+
+
 
 .section--leftSide{
   display:flex;
@@ -841,6 +925,11 @@ section {
   color: rgb(22, 69, 150)!important;
 }
 
+.style5{
+  color: rgb(156, 181, 224)!important;
+  border-bottom: 1px solid rgb(156, 181, 224)!important;
+}
+
 .productFeature p{
   padding-top:0.25rem; 
   line-height:1.5rem; 
@@ -859,6 +948,22 @@ section {
   padding:3rem; 
   /* border:1px solid black;  */
  
+}
+
+.section--middle{
+  border-radius:50px; 
+  height:100%;
+  width:40%;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:700px){
+  .section--middle{
+    width:60%;
+  }
 }
 
 .section--rightSide--content{
