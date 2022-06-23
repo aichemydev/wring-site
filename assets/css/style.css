@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 35px;
   height: 35px;
   border-radius: 4px;
-  background: #F44235;
+  background: #3d68c7;
   color: #fff;
   transition: all 0.4s;
 }
@@ -252,12 +252,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: rgb(64, 132, 250);
+  color: rgb(29, 88, 189);
+  font-weight:600;
 }
 
 .optional{
   display:none;
-  color: rgb(46, 93, 173);
+  color: rgb(29, 88, 189);
+  font-weight:600;
   opacity:0; 
   transition: all 0.5s; 
 }
@@ -822,7 +824,7 @@ section {
 
 .style1{ 
   border-bottom:1px solid rgb(114, 149, 209) !important;
-  color: rgb(114, 149, 209) !important; 
+  color: rgb(114, 149, 209)!important; 
 }
 
 .style3{
