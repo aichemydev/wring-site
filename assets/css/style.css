@@ -2133,9 +2133,10 @@ section {
 }
 
 .callToAction__rightSide__image{
-  width:100%; 
-  height:auto; 
+  width:110%; 
+  height:420px; 
   box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4);
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
