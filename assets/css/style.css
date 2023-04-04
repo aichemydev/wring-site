@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 #test{ 
   padding-right: var(--base-size-8, 5px) !important;
   padding-left: var(--base-size-8, 5px) !important;
-  border: 2px solid rgb(247, 246, 250);
+  border: 2px solid rgb(75, 125, 211);
   border-radius: 15px;
 }
 
