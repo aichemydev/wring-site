@@ -146,12 +146,11 @@
 
         <iframe
                 width="100%" height="100%"
-                src="https://www.youtube.com/embed/nsFn2spLKtE&autoplay=1"
                 srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/nsFn2spLKtE?autoplay=1><img src=https://img.youtube.com/vi/nsFn2spLKtE/hqdefault.jpg alt='Video Testing using Generative AI'><span>▶</span></a>"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-                title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"
+                title="Testing using Generative AI"
         ></iframe>
       </div>
       
@@ -421,6 +420,14 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+
+    setTimeout(function() {
+      var f = document.querySelectorAll('iframe')[0];
+      // f.src = '//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Faeria&amp;send=false&amp;layout=button_count&amp;width=170&amp;show_faces=true&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=21';
+      f.src = 'https://www.youtube.com/embed/nsFn2spLKtE&autoplay=1'
+      console.log('Youtube loaded');
+    }, 0);
+    // console.log('Started');
 
     var TxtRotate = function (el, toRotate, period) {
       this.toRotate = toRotate;
