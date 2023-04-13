@@ -2697,7 +2697,7 @@ section {
   }
 
   .useCases--rightSide--image {
-    width: 100%;
+    width: 20%;
     height: 300px;
   }
 }
@@ -2754,6 +2754,11 @@ section {
 
 .bg3 {
   background-color: #c9deee;
+}
+.bgg3{
+  width: auto;
+  height: auto;
+  padding-left: 150px;
 }
 
 /*--------------------------------------------------------------
