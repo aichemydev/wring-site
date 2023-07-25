@@ -27,7 +27,7 @@ ul {
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000000;
 }
 
 a {
@@ -74,6 +74,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bgg3{
+  width: auto;
+  height: auto;
+  padding-left: 150px;
+}
+
+.bg5{
+  background-color: #005454;
   width: auto;
   height: auto;
   padding-left: 150px;
@@ -156,7 +163,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .title-text{
     background-color: #f3ec78;
-    background-image: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%);
+    /* background-image: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%); */
+    background-color: #0000FF;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -199,7 +207,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
   width: 100%;
   border-bottom: 1px solid #e6f2fb;
-  background: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%);
+  /* background: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%); */
+  background-color: #fff;
 }
 
 #header.header-scrolled {
@@ -255,14 +264,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #d1d1d1;
+  color: #0000FF;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffffff;
+  color: #5a75b4;
   font-weight:600;
 }
 
@@ -681,7 +690,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color:rgb(114, 149, 209) !important;
+  color:#cafefe !important;
 }
 
 .section-title p {
@@ -745,15 +754,15 @@ section {
 
 
 .bg1{
-  background-color: rgb(217, 224, 236);
+  background-color:#28044A;
 }
 
 .bg2{
-  background-color:#a9b5d6;
+  background-color:#51DA4C;
 }
 
 .bg3{
-  background-color:rgb(46, 72, 119);
+  background-color:#000000;
   justify-content: center;
   align-items: center;
 }
@@ -863,17 +872,17 @@ section {
 .productFeature h3{
   font-size: 1.25rem; 
   letter-spacing: 2.2px;
-  border-bottom:1px solid #ff7f5c; 
+  border-bottom:1px solid #000000; 
   font-weight:500;
   text-transform:uppercase;
   margin-right:10rem; 
   padding-bottom:0.5rem;
-  color: #884afc; 
+  color: #000; 
 }
 
 .style1{ 
-  border-bottom:1px solid rgb(114, 149, 209) !important;
-  color: rgb(114, 149, 209)!important; 
+  border-bottom:1px solid #cafefe !important;
+  color:#cafefe !important; 
 }
 
 .style3{
@@ -881,8 +890,8 @@ section {
 }
 
 .style2{
-  border-bottom:1px solid rgb(22, 69, 150) !important; 
-  color: rgb(22, 69, 150) !important;
+  border-bottom:1px solid rgb(0, 0, 0) !important; 
+  color: rgb(0, 0, 0) !important;
 }
 
 .style4{
@@ -1368,7 +1377,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%);
+  /* background: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%); */
+  /* background-color: #0000FF; */
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   background-size: cover;
   padding: 7.5rem 0 7.5rem 0; 
 
@@ -2349,7 +2361,8 @@ section {
 
 #footer .footer-top {
   padding: 40px 0 20px 0;
-  background:#959595
+  background: #0000FF;
+
 }
 
 #footer .footer-top .footer-contact {
@@ -2548,7 +2561,7 @@ section {
 }
 
 .bg3 {
-  background-color: #c9deee;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -2558,8 +2571,13 @@ section {
   display:flex;
   flex-direction:column; 
   align-items: center;
+  background-color:#0000FF;
 }
 
+.test1{
+  background-color: #0000FF;
+  font-size: 500px;
+}
 .contactUs__title{
   width:50%; 
   margin: 0 auto; 
@@ -2574,7 +2592,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color:rgb(114, 149, 209);
+  color:#b7b7ce;
 }
 
 .contactform{
@@ -2583,7 +2601,7 @@ section {
   width:70%;
   margin: 0 auto;
   margin-top:2rem;   
-  background-color:white;
+  background-color:#0000FF;
   box-shadow: -1px 3px 7px 1px rgba(0,0,0,0.2);
 }
 
