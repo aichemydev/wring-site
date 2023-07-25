@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #005454;
   width: auto;
   height: auto;
-  padding-left: 150px;
+  /*padding-left: 150px;*/
 }
 
 /*--------------------------------------------------------------
@@ -2588,7 +2588,7 @@ section {
 .useCases--rightSide--image{
   min-width: 100%;
   max-width: 200%;
-  transform: scale(0.7) translateX(1rem) ;
+  transform: scale(1.0) translateX(1rem) ;
 }
 
 .bg3 {
