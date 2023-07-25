@@ -2085,9 +2085,17 @@ section {
   
 }
 
+.callToAction__leftSide__blacktitle{
+  font-size:2rem;
+  color:black;
+  margin-bottom:1rem;
+
+}
+
+
 .callToAction__leftSide__text{
   font-size:1.25rem; 
-  color:rgb(206, 205, 205); 
+  color:rgb(206, 205, 205);
   margin-bottom:1rem; 
   padding-bottom: 1rem; 
   border-bottom:3px solid rgb(126, 158, 206); 
@@ -2102,7 +2110,22 @@ section {
   font-size:1.15rem;
   display:block;
   margin-left:2em;
-  color:rgb(253, 254, 255); 
+  color:rgb(253, 254, 255);
+}
+
+.calltoAction__leftSide__blacklist li span{
+  font-size:1.15rem;
+  display:block;
+  margin-left:2em;
+  list-style: none;
+  /*margin-left:-0.5rem !important;*/
+  /*color:rgb(253, 254, 255);*/
+}
+
+.calltoAction__leftSide__blacklist li::marker{
+  content: '✓';
+  color: black;
+
 }
 
 .calltoAction__leftSide__list li::marker{
@@ -2160,7 +2183,7 @@ section {
     margin: 0 auto; 
 
   }
-  .callToAction__leftSide__title{
+  .callToAction__leftSide__blacktitle{
     margin-top:5rem;
     font-size:1.5rem; 
   }
@@ -2186,6 +2209,14 @@ section {
     margin-left:1em;
     color:rgb(253, 254, 255); 
   }
+
+   .calltoAction__leftSide__blacklist li span{
+    font-size:1rem;
+    display:block;
+    margin-left:1em;
+    /*color:rgb(253, 254, 255);*/
+  }
+
 
   .calltoAction__leftSide__list li:not(:last-child){
     margin-bottom:5px; 
@@ -2700,3 +2731,7 @@ section {
     font-size:0.8rem;
   }
 }
+
+#loom-companion-mv3 {
+    display:none !important;
+  }
