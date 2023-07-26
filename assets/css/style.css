@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg5{
-  background-color: #005454;
+  background-color: #ffffff;
   width: auto;
   height: auto;
   /*padding-left: 150px;*/
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 #test{ 
   padding-right: var(--base-size-8, 5px) !important;
   padding-left: var(--base-size-8, 5px) !important;
-  border: 2px solid rgb(75, 125, 211);
+  border: 2px solid #0000FF;
   border-radius: 15px;
 }
 
@@ -2110,10 +2110,24 @@ section {
   font-size:1.15rem;
   display:block;
   margin-left:2em;
-  color:rgb(253, 254, 255);
+  color:rgb(250, 247, 247);
+}
+.calltoAction__leftSide__list1 li span{
+  font-size:1.15rem;
+  display:block;
+  margin-left:2em;
+  color:rgb(2, 2, 2);
 }
 
 .calltoAction__leftSide__blacklist li span{
+  font-size:1.15rem;
+  display:block;
+  margin-left:2em;
+  list-style: none;
+  /*margin-left:-0.5rem !important;*/
+  /*color:rgb(253, 254, 255);*/
+}
+.calltoAction__leftSide__blacklist1 li span{
   font-size:1.15rem;
   display:block;
   margin-left:2em;
@@ -2131,6 +2145,17 @@ section {
 .calltoAction__leftSide__list li::marker{
   content: '✓';
   color: rgb(168, 197, 252);
+  
+}
+.calltoAction__leftSide__blacklist1 li::marker{
+  content: '✓';
+  color: black;
+
+}
+
+.calltoAction__leftSide__list1 li::marker{
+  content: '✓';
+  color: rgb(1, 1, 1);
   
 }
 
