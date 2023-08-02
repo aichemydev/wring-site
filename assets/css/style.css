@@ -2098,7 +2098,7 @@ section {
   color:rgb(206, 205, 205);
   margin-bottom:1rem; 
   padding-bottom: 1rem; 
-  border-bottom:3px solid rgb(126, 158, 206); 
+  border-bottom:3px solid #0000FF; 
 }
 
 .calltoAction__leftSide__list{
@@ -2144,7 +2144,7 @@ section {
 
 .calltoAction__leftSide__list li::marker{
   content: '✓';
-  color: rgb(168, 197, 252);
+  color: #0000FF;
   
 }
 .calltoAction__leftSide__blacklist1 li::marker{
@@ -2168,7 +2168,7 @@ section {
   margin-top:1.5rem; 
   padding:0.75rem 1.25rem 0.75rem 1.25rem; 
   border-radius: 0.25rem;
-  background-color:rgb(80, 123, 189); 
+  background-color:#0000FF; 
   color:white;
   box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.1);
   transition: 0.25s all; 
@@ -2176,7 +2176,7 @@ section {
 
 .callToAction__leftSide__button:hover{
   transform:translateY(-0.25rem) scale(1.05);
-  background-color:rgb(62, 106, 172); 
+  background-color:#0000FF; 
   cursor:pointer; 
 }
 
@@ -2216,7 +2216,7 @@ section {
   .callToAction__leftSide__text{
     font-size:1rem; 
     padding-bottom: 1rem; 
-    border-bottom:2px solid rgb(126, 158, 206); 
+    border-bottom:2px solid #0000FF; 
   }
 
   .callToAction__leftSide{
