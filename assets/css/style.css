@@ -2080,6 +2080,7 @@ section {
 }
 
 .card-position--text {
+  width: 350px;
   display: flex;
   align-items: center;
   margin: 520px auto;
@@ -2091,7 +2092,7 @@ section {
 
 .card--position {
   top: 20%;
-  right: 13%;
+  right: 10%;
   /* box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4); */
 }
 
@@ -2105,7 +2106,7 @@ section {
 
 .card-position--expander {
   top: 20%;
-  left: -7%;
+  left: -8.5%;
   /* box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4); */
 }
 
@@ -2171,7 +2172,7 @@ section {
 .calltoAction__leftSide__list li span{
   font-size:1.15rem;
   display:block;
-  margin-left:2em;
+  margin-left:0.5rem;
   color:rgb(250, 247, 247);
 }
 .calltoAction__leftSide__list1 li span{
