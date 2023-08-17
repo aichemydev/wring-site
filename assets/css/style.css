@@ -300,8 +300,12 @@ h1, h2, h3, h4, h5, h6 {
 #test{ 
   padding-right: var(--base-size-8, 5px) !important;
   padding-left: var(--base-size-8, 5px) !important;
-  border: 2px solid #0000FF;
   border-radius: 15px;
+  background-color: #5E72E4;
+}
+
+#test a{
+  color: white;
 }
 
 
@@ -2221,6 +2225,7 @@ section {
   color: #8cd184;
   
 }
+
 .calltoAction__leftSide__blacklist1 li::marker{
   content: '✓';
   color: black;
@@ -2705,7 +2710,7 @@ section {
 }
 
 .test1{
-  background-color: #0000FF;
+  background-color: #5E72E4;
   font-size: 500px;
 }
 .contactUs__title{
@@ -2726,13 +2731,25 @@ section {
 }
 
 .contactform{
-  border-radius:0.5rem; 
+  /* border-radius:0.5rem;  */
   display: flex; 
   width:70%;
   margin: 0 auto;
   margin-top:2rem;   
-  background-color:#0000FF;
-  box-shadow: -1px 3px 7px 1px rgba(0,0,0,0.2);
+  /* background-color:#0000FF;
+  box-shadow: -1px 3px 7px 1px rgba(0,0,0,0.2); */
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.277);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
+
+iframe {
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .contactform--left{
@@ -2757,6 +2774,8 @@ section {
   border:none;
   font-size:1rem;
   margin-bottom:1.5rem; 
+  border:1px solid rgb(170, 169, 169);
+  border-radius:5px; 
 }
 
 .contactform--left--input--message:focus{
