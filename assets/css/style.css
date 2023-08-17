@@ -12,6 +12,10 @@
 .container--card {
   display: flex;
   height: 800px;
+  background:
+  url('../img/bg-cc.jpg')
+  center / cover;
+  /* https://source.unsplash.com/E8Ufcyxz514/2400x1823 */
 }
 
 ul {
@@ -2083,15 +2087,21 @@ section {
   width: 350px;
   display: flex;
   align-items: center;
-  margin: 520px auto;
+  margin: 620px auto;
 }
 
 .card--image {
   display: block !important;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
 }
 
 .card--position {
-  top: 20%;
+  top: 22%;
   right: 10%;
   /* box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4); */
 }
@@ -2105,7 +2115,7 @@ section {
 }
 
 .card-position--expander {
-  top: 20%;
+  top: 22%;
   left: -8.5%;
   /* box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4); */
 }
@@ -2119,13 +2129,14 @@ section {
 
 .card--image:hover{
   transition: 0.5s;
-  box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4) !important;
+  box-shadow: 1px 5px 10px 5px rgba(255, 255, 255, 0.4) !important;
   border-radius: 10px;
 }
 
 .card--text {
   display: flex;
   justify-content: center;
+  color: white !important;
 }
 
 .callToAction__leftSide{
@@ -2207,7 +2218,7 @@ section {
 
 .calltoAction__leftSide__list li::marker{
   content: '✓';
-  color: #0000FF;
+  color: #8cd184;
   
 }
 .calltoAction__leftSide__blacklist1 li::marker{
