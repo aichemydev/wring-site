@@ -1393,7 +1393,10 @@ section {
   /* background: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%); */
   /* background-color: #0000FF; */
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background:
+  url('../img/bg-cc.jpg')
+  center / cover !important;
+  /* background-color: rgb(15 23 42 / var(--tw-bg-opacity)); */
   background-size: cover;
   padding: 7.5rem 0 7.5rem 0; 
 
@@ -2082,6 +2085,7 @@ section {
 .is-show {
   transition: all ease 0.5s;
 }
+
 .is-hide {
   display: none;
   transition: all ease 0.5s;
