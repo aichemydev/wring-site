@@ -12,9 +12,9 @@
 .container--card {
   display: flex;
   height: 800px;
-  background:
-  url('../img/bg-cc.jpg')
-  center / cover;
+  /* background:
+  /* url('../img/bg-cc.jpg')
+  center / cover; */
   /* https://source.unsplash.com/E8Ufcyxz514/2400x1823 */
 }
 
@@ -1393,13 +1393,19 @@ section {
   /* background: linear-gradient(90deg, rgba(32,56,100,1) 12%, rgba(61,107,189,1) 72%); */
   /* background-color: #0000FF; */
   --tw-bg-opacity: 1;
-  background:
+  /* background:
   url('../img/bg-cc.jpg')
-  center / cover !important;
+  center / cover !important; */
   /* background-color: rgb(15 23 42 / var(--tw-bg-opacity)); */
   background-size: cover;
   padding: 7.5rem 0 7.5rem 0; 
 
+}
+
+.main-section {
+  background:
+  url('../img/bg-cc.jpg')
+  center / cover !important;
 }
 
 .cta h3 {
@@ -2104,7 +2110,7 @@ section {
 }
 
 .card--position {
-  top: 22%;
+  top: 42%;
   right: 10%;
   /* box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4); */
 }
@@ -2118,7 +2124,7 @@ section {
 }
 
 .card-position--expander {
-  top: 22%;
+  top: 42%;
   left: -8.5%;
   /* box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.4); */
 }
@@ -2493,7 +2499,7 @@ section {
 #footer {
   color: white;
   font-size: 14px;
-  background: #0173ff;
+  background: #5E72E4;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
@@ -2501,7 +2507,7 @@ section {
 
 #footer .footer-top {
   padding: 40px 0 20px 0;
-  background: #0000FF;
+  background: #5E72E4;
 
 }
 
@@ -2711,7 +2717,7 @@ section {
   display:flex;
   flex-direction:column; 
   align-items: center;
-  background-color:#0000FF;
+  background-color:#5E72E4;
 }
 
 .test1{
@@ -2767,7 +2773,7 @@ iframe {
 
 .contactform--left--input--name{
   padding:0rem !important;
-  color:rgb(185, 185, 185);
+  color:rgb(3, 3, 3);
   font-size:1rem; 
   display:block;
 }
@@ -2784,7 +2790,7 @@ iframe {
 }
 
 .contactform--left--input--message:focus{
- border-bottom:1px solid rgb(56, 56, 56);
+ border-bottom:1px solid #5E72E4;
   outline:none;
 }
 
@@ -2802,7 +2808,7 @@ iframe {
 .contactform--left--send{ 
   align-self: center;
   padding: 0.5rem 2rem 0.5rem 2rem; 
-  background-color:rgb(92, 108, 153); 
+  background-color:#5E72E4; 
   color:white; 
   border: 1px solid rgb(92, 108, 153); ;
   border-radius:0.25rem;  
