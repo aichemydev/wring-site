@@ -377,10 +377,22 @@
       isHover = false
       textExpander.style.display = "none"
     })
-
+    let cardImage = document.querySelectorAll(".card--image")
   function repeate() {    
   setTimeout(() => {
       if(!isHover){
+        cardImage[2].style.transition = "0"
+        cardImage[2].style.border = "none"
+        cardImage[2].style.borderRadius = "none"
+        cardImage[2].style.backgroundColor = ""
+        cardImage[2].style.boxShadow = "none"
+        cardImage[2].style.backdropFilter = "none" 
+        cardImage[0].style.transition = "0.8s"
+        cardImage[0].style.border = "1px solid rgba(255, 255, 255, .25)"
+        cardImage[0].style.borderRadius = "20px"
+        cardImage[0].style.backgroundColor = "rgba(255, 255, 255, 0.45)"
+        cardImage[0].style.boxShadow = "0 0 10px 1px rgba(0, 0, 0, 0.25)"
+        cardImage[0].style.backdropFilter = "blur(15px)"       
         textExpander.style.display = "none"
         textAppMap.classList.remove("is-hide")
         textAppMap.classList.toggle("is-show")
@@ -388,13 +400,37 @@
     }, 2000);
     setTimeout(() => {
     if(!isHover){
+      cardImage[0].style.transition = "0"
+      cardImage[0].style.border = "none"
+      cardImage[0].style.borderRadius = "none"
+      cardImage[0].style.backgroundColor = ""
+      cardImage[0].style.boxShadow = "none"
+      cardImage[0].style.backdropFilter = "none" 
+      cardImage[1].style.transition = "0.8s"
+      cardImage[1].style.border = "1px solid rgba(255, 255, 255, .25)"
+      cardImage[1].style.borderRadius = "20px"
+      cardImage[1].style.backgroundColor = "rgba(255, 255, 255, 0.45)"
+      cardImage[1].style.boxShadow = "0 0 10px 1px rgba(0, 0, 0, 0.25)"
+      cardImage[1].style.backdropFilter = "blur(15px)"   
       textAppMap.classList.remove("is-show")
       textAppMap.classList.toggle("is-hide")
       textLive.style.display = "block"
     }
     }, 3000)
     setTimeout(() => {
-    if(!isHover){      
+    if(!isHover){
+      cardImage[1].style.transition = "0"
+      cardImage[1].style.border = "none"
+      cardImage[1].style.borderRadius = "none"
+      cardImage[1].style.backgroundColor = ""
+      cardImage[1].style.boxShadow = "none"
+      cardImage[1].style.backdropFilter = "none" 
+      cardImage[2].style.transition = "0.8s"
+      cardImage[2].style.border = "1px solid rgba(255, 255, 255, .25)"
+      cardImage[2].style.borderRadius = "20px"
+      cardImage[2].style.backgroundColor = "rgba(255, 255, 255, 0.45)"
+      cardImage[2].style.boxShadow = "0 0 10px 1px rgba(0, 0, 0, 0.25)"
+      cardImage[2].style.backdropFilter = "blur(15px)"         
       textLive.style.display = "none"
       textExpander.style.display = "block"
     }
