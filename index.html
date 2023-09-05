@@ -117,7 +117,7 @@
           ALL USER JOURNEYS TESTED
         </h2>
         <p class = "callToAction__leftSide__text callToAction__leftSide__elem">
-          Wring is the industry's first platform for Customer First Testing. Wring's innovative solution allow makers to better understand customer behaviors and address their needs.
+          Wring is the industry's first platform for  <span class = "title-text"> Customer First Testing.</span>  Wring's innovative solution allow makers to better understand customer behaviors and address their needs.
         </p>
         <ul class="calltoAction__leftSide__list callToAction__leftSide__elem">
             <li class="callToAction__leftSide__list__elem"><span> Wring learns by observing how you work and helps test the software you build            </span> </li>
@@ -233,9 +233,9 @@
 
 
   <section class="bg5">
-    <div class="useCases--holder">
+    <div class="useCases--holder chatWring-section">
       <div class="useCases--leftSide">
-        <h2 class="" style="color: rgb(10, 10, 10);">
+        <h2 class="" style="color: rgb(10, 10, 10); margin: 0 auto;">
           CHATWRING
         </h2>
         <br>
@@ -338,29 +338,66 @@
     let textLive = document.querySelector(".text-card--live")
     let cardExpander = document.querySelector(".card-position--expander")
     let textExpander = document.querySelector(".text-card--expander")
+    let isHover = false
 
     cardAppMap.addEventListener("mouseover",() => {
       textAppMap.classList.remove("is-hide")
       textAppMap.classList.toggle("is-show")
+      isHover = true
     })
     cardAppMap.addEventListener("mouseout",() => {
+      isHover = false
       textAppMap.classList.remove("is-show")
       textAppMap.classList.toggle("is-hide")
     })
 
     cardLive.addEventListener("mouseover",() => {
+      isHover = true
       textLive.style.display = "block"
     })
     cardLive.addEventListener("mouseout",() => {
+      isHover = false
       textLive.style.display = "none"
     })
 
     cardExpander.addEventListener("mouseover",() => {
+      isHover = true
       textExpander.style.display = "block"
     })
     cardExpander.addEventListener("mouseout",() => {
+      isHover = false
       textExpander.style.display = "none"
     })
+    // setInterval(() => {
+    //   textExpander.style.display = "none"
+    //   textAppMap.classList.remove("is-hide")
+    //   textAppMap.classList.toggle("is-show")
+    // }, 2000);
+    // setInterval(() => {
+    //   textAppMap.classList.remove("is-show")
+    //   textAppMap.classList.toggle("is-hide")
+    //   textLive.style.display = "block"
+    // }, 3000)
+    // setInterval(() => {
+    //   textLive.style.display = "none"
+    //   textExpander.style.display = "block"
+    // }, 4000)
+    // while(isHover === false) {
+    //   setTimeout(()=> {
+        // textAppMap.classList.remove("is-hide")
+        // textAppMap.classList.toggle("is-show")
+    //   }, 1000)
+    //   textAppMap.classList.remove("is-show")
+    //   textAppMap.classList.toggle("is-hide")
+    //   setTimeout(()=> {
+    //     textLive.style.display = "block"
+    //   }, 1000)
+    //   textLive.style.display = "none"
+    //   setTimeout(()=> {
+    //     textExpander.style.display = "block"
+    //   }, 1000)
+    //   textExpander.style.display = "none"
+    // }
     
     // setTimeout(function() {
     //   var f = document.querySelectorAll('iframe')[0];
