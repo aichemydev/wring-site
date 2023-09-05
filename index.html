@@ -142,7 +142,16 @@
       </div>
     </section>
   </section>
-  
+      <hr class="my-3" style="
+        border-color: #0000FF;
+        border-style: solid none none;
+        border-width: 1px 0px 0px;
+        border-image: none 100% / 1 / 0 stretch;
+        min-width: 98%;
+        overflow: visible;
+        box-sizing: content-box;
+        height: 0px;
+      " />
   <section id = "product" class="" data-aos="fade-up" data-aos-offset="300" style="padding: 0 !important;">
 
 
@@ -368,20 +377,31 @@
       isHover = false
       textExpander.style.display = "none"
     })
-    // setInterval(() => {
-    //   textExpander.style.display = "none"
-    //   textAppMap.classList.remove("is-hide")
-    //   textAppMap.classList.toggle("is-show")
-    // }, 2000);
-    // setInterval(() => {
-    //   textAppMap.classList.remove("is-show")
-    //   textAppMap.classList.toggle("is-hide")
-    //   textLive.style.display = "block"
-    // }, 3000)
-    // setInterval(() => {
-    //   textLive.style.display = "none"
-    //   textExpander.style.display = "block"
-    // }, 4000)
+
+  function repeate() {    
+  setTimeout(() => {
+      if(!isHover){
+        textExpander.style.display = "none"
+        textAppMap.classList.remove("is-hide")
+        textAppMap.classList.toggle("is-show")
+      }
+    }, 2000);
+    setTimeout(() => {
+    if(!isHover){
+      textAppMap.classList.remove("is-show")
+      textAppMap.classList.toggle("is-hide")
+      textLive.style.display = "block"
+    }
+    }, 3000)
+    setTimeout(() => {
+    if(!isHover){      
+      textLive.style.display = "none"
+      textExpander.style.display = "block"
+    }
+    }, 4000)
+  }
+
+  setInterval(repeate, 4500)
     // while(isHover === false) {
     //   setTimeout(()=> {
         // textAppMap.classList.remove("is-hide")
