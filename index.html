@@ -397,7 +397,7 @@
         textAppMap.classList.remove("is-hide")
         textAppMap.classList.toggle("is-show")
       }
-    }, 2000);
+    }, 3000);
     setTimeout(() => {
     if(!isHover){
       cardImage[0].style.transition = "0"
@@ -416,7 +416,7 @@
       textAppMap.classList.toggle("is-hide")
       textLive.style.display = "block"
     }
-    }, 3000)
+    }, 6000)
     setTimeout(() => {
     if(!isHover){
       cardImage[1].style.transition = "0"
@@ -434,10 +434,10 @@
       textLive.style.display = "none"
       textExpander.style.display = "block"
     }
-    }, 4000)
+    }, 9000)
   }
-
-  setInterval(repeate, 4500)
+  repeate()
+  setInterval(repeate, 18500)
     // while(isHover === false) {
     //   setTimeout(()=> {
         // textAppMap.classList.remove("is-hide")
