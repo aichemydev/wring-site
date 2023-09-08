@@ -348,21 +348,50 @@
     let cardExpander = document.querySelector(".card-position--expander")
     let textExpander = document.querySelector(".text-card--expander")
     let isHover = false
+    let cardImage = document.querySelectorAll(".card--image")
 
     cardAppMap.addEventListener("mouseover",() => {
-      textAppMap.classList.remove("is-hide")
-      textAppMap.classList.toggle("is-show")
+      textAppMap.style.display = "block"
+      textExpander.style.display = "none"
+      textLive.style.display = "none"
       isHover = true
+      cardImage[2].style.transition = "0"
+      cardImage[2].style.border = "none"
+      cardImage[2].style.borderRadius = "none"
+      cardImage[2].style.backgroundColor = ""
+      cardImage[2].style.boxShadow = "none"
+      cardImage[2].style.backdropFilter = "none"
+      cardImage[1].style.transition = "0"
+      cardImage[1].style.border = "none"
+      cardImage[1].style.borderRadius = "none"
+      cardImage[1].style.backgroundColor = ""
+      cardImage[1].style.boxShadow = "none"
+      cardImage[1].style.backdropFilter = "none"
     })
     cardAppMap.addEventListener("mouseout",() => {
       isHover = false
-      textAppMap.classList.remove("is-show")
-      textAppMap.classList.toggle("is-hide")
+      // textAppMap.classList.remove("is-show")
+      // textAppMap.classList.toggle("is-hide")
+      textAppMap.style.display = "none"
     })
 
     cardLive.addEventListener("mouseover",() => {
       isHover = true
       textLive.style.display = "block"
+      textExpander.style.display = "none"
+      textAppMap.style.display = "none"
+      cardImage[2].style.transition = "0"
+      cardImage[2].style.border = "none"
+      cardImage[2].style.borderRadius = "none"
+      cardImage[2].style.backgroundColor = ""
+      cardImage[2].style.boxShadow = "none"
+      cardImage[2].style.backdropFilter = "none"
+      cardImage[0].style.transition = "0"
+      cardImage[0].style.border = "none"
+      cardImage[0].style.borderRadius = "none"
+      cardImage[0].style.backgroundColor = ""
+      cardImage[0].style.boxShadow = "none"
+      cardImage[0].style.backdropFilter = "none"
     })
     cardLive.addEventListener("mouseout",() => {
       isHover = false
@@ -372,15 +401,33 @@
     cardExpander.addEventListener("mouseover",() => {
       isHover = true
       textExpander.style.display = "block"
+      textLive.style.display = "none"
+      textAppMap.style.display = "none"
+      cardImage[0].style.transition = "0"
+      cardImage[0].style.border = "none"
+      cardImage[0].style.borderRadius = "none"
+      cardImage[0].style.backgroundColor = ""
+      cardImage[0].style.boxShadow = "none"
+      cardImage[0].style.backdropFilter = "none"
+      cardImage[1].style.transition = "0"
+      cardImage[1].style.border = "none"
+      cardImage[1].style.borderRadius = "none"
+      cardImage[1].style.backgroundColor = ""
+      cardImage[1].style.boxShadow = "none"
+      cardImage[1].style.backdropFilter = "none"
     })
     cardExpander.addEventListener("mouseout",() => {
       isHover = false
       textExpander.style.display = "none"
     })
-    let cardImage = document.querySelectorAll(".card--image")
   function repeate() {    
   setTimeout(() => {
       if(!isHover){
+        textExpander.style.display = "none"
+        textAppMap.style.display = "block"
+        // textAppMap.classList.remove("is-hide")
+        // textAppMap.classList.toggle("is-show")
+        textLive.style.display = "none"
         cardImage[2].style.transition = "0"
         cardImage[2].style.border = "none"
         cardImage[2].style.borderRadius = "none"
@@ -393,13 +440,15 @@
         cardImage[0].style.backgroundColor = "rgba(255, 255, 255, 0.45)"
         cardImage[0].style.boxShadow = "0 0 10px 1px rgba(0, 0, 0, 0.25)"
         cardImage[0].style.backdropFilter = "blur(15px)"       
-        textExpander.style.display = "none"
-        textAppMap.classList.remove("is-hide")
-        textAppMap.classList.toggle("is-show")
-      }
+      } 
     }, 1000);
     setTimeout(() => {
     if(!isHover){
+      // textAppMap.classList.remove("is-show")
+      // textAppMap.classList.toggle("is-hide")
+      textLive.style.display = "block"
+      textExpander.style.display = "none"
+      textAppMap.style.display = "none"
       cardImage[0].style.transition = "0"
       cardImage[0].style.border = "none"
       cardImage[0].style.borderRadius = "none"
@@ -412,13 +461,13 @@
       cardImage[1].style.backgroundColor = "rgba(255, 255, 255, 0.45)"
       cardImage[1].style.boxShadow = "0 0 10px 1px rgba(0, 0, 0, 0.25)"
       cardImage[1].style.backdropFilter = "blur(15px)"   
-      textAppMap.classList.remove("is-show")
-      textAppMap.classList.toggle("is-hide")
-      textLive.style.display = "block"
     }
     }, 5000)
     setTimeout(() => {
-    if(!isHover){
+    if(!isHover){       
+      textAppMap.style.display = "none"
+      textLive.style.display = "none"
+      textExpander.style.display = "block"
       cardImage[1].style.transition = "0"
       cardImage[1].style.border = "none"
       cardImage[1].style.borderRadius = "none"
@@ -430,9 +479,7 @@
       cardImage[2].style.borderRadius = "20px"
       cardImage[2].style.backgroundColor = "rgba(255, 255, 255, 0.45)"
       cardImage[2].style.boxShadow = "0 0 10px 1px rgba(0, 0, 0, 0.25)"
-      cardImage[2].style.backdropFilter = "blur(15px)"         
-      textLive.style.display = "none"
-      textExpander.style.display = "block"
+      cardImage[2].style.backdropFilter = "blur(15px)"
     }
     }, 9000)
   }
