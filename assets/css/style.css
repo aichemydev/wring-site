@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media  (max-width: 1200px){
+@media  (max-width: 1200px) and (min-width: 801px){
   .card--image {
     width: 350px !important;
   }
@@ -367,7 +367,29 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-@media  (max-width: 1070px){
+.title--text > h2 {
+  font-size: 100px;
+}
+
+.title--text > h1 {
+  font-size: 200px;
+}
+
+
+@media (max-width: 550px) {
+  .title--text > h2 {
+    font-size: 48px;
+  }
+
+  .title--text > h1 {
+    font-size: 100px;
+  }
+
+
+}
+
+
+@media  (max-width: 1070px) and (min-width: 800px){
 
   
   .custom--cpt {
@@ -375,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media  (max-width: 1400px){
+@media  (max-width: 1400px) and (min-width: 1201px){
   .card--image {
     width: 400px !important;
   }
@@ -2739,10 +2761,48 @@ section {
     overflow: hidden;
     padding-right: 1rem;
   }
+  .card-position--expander {
+    left: -7% !important;
 
+  }
+  
+  .custom--img {
+    height: auto;
+  }
+
+  .custom-card--gif {
+    width: 240px !important;
+  }
+
+  .card-position--expander > div > div {
+    width: 190px !important;
+  }
+
+  .card-position--appmap {
+
+  }
+
+  .card--position > div > div {
+    height: 140px;
+  }
+
+  .card--position {
+    right: 10% !important;
+  }
   .useCases--rightSide--image {
     width: 50%;
     /*height: 100px;*/
+  }
+
+  .card--text {
+    font-size: 1.2rem;
+  }
+
+  .custom--cpt {
+    position: absolute;
+    margin: 0px auto ;
+    top: 25%;
+    left: 15%;
   }
 }
 
