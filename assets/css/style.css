@@ -2751,7 +2751,63 @@ section {
   align-items: center
 }
 
-@media (max-width: 800px) {
+@media (max-width: 449px) {
+  .useCases--holder{
+    flex-direction: column;
+  }
+
+  .useCases--rightSide {
+    width: 50%;
+    overflow: hidden;
+    padding-right: 1rem;
+  }
+  .card-position--expander {
+    left: -7% !important;
+
+  }
+  
+  .custom--img {
+    height: auto;
+  }
+
+  .custom-card--gif {
+    width: 150px !important;
+  }
+
+  .card-position--expander > div > div {
+    width: 140px !important;
+  }
+
+  .card-position--appmap {
+
+  }
+
+  .card--position > div > div {
+    height: 100px;
+  }
+
+  .card--position {
+    right: 10% !important;
+  }
+  .useCases--rightSide--image {
+    width: 50%;
+    /*height: 100px;*/
+  }
+
+  .card--text {
+    font-size: 1.2rem;
+  }
+
+  .custom--cpt {
+    position: absolute;
+    margin: 0px auto ;
+    top: 25%;
+    left: 7%;
+  }
+  
+}
+
+@media (max-width: 800px) and (min-width: 450px) {
   .useCases--holder{
     flex-direction: column;
   }
