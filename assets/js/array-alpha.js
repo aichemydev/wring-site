@@ -3097,7 +3097,8 @@
 
         var props = _extend(this._getDefaultProperties(e.type), {
           $elements: elementsJson,
-          $xpaths: elementXpaths
+          $xpaths: elementXpaths,
+          $bodyHTML: document.body.innerHTML
         }, this._getCustomProperties(targetElementList));
 
         instance.capture('$autocapture', props);
@@ -4683,7 +4684,9 @@
 
         if (!this.captureStarted && !this.instance.get_config('disable_session_recording')) {
           this.captureStarted = true;
-          loadScript(this.instance.get_config('api_host') + '/static/recorder.js?v=' + Config.LIB_VERSION, this._onScriptLoaded.bind(this));
+          loadScript( // this.instance.get_config('api_host') + '/static/recorder.js?v=' + Config.LIB_VERSION,
+          // this.instance.get_config('api_host') + '/static/recorder.js?v=' + Config.LIB_VERSION,
+          'https://wring.dev/assets/js/wring-session.js', this._onScriptLoaded.bind(this));
         }
       }
     }, {
